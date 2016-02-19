@@ -29,7 +29,6 @@ var AnimateWhenInView = (function () {
 
     this.activateElement = function(){
       this.setAttribute('data-inview', true);
-      console.log(this.getAttribute('data-animatecallback'));
       if(this.getAttribute('data-animatecallback')){
         try {
           eval(this.getAttribute('data-animatecallback'))(this);
@@ -47,8 +46,6 @@ var AnimateWhenInView = (function () {
       for(i=0; i<this.allElements.length; i++){
         if(!this.allElements[i][1]){
           var _this = this.allElements[i][0];
-          console.log(_this.getAttribute('data-animateoffset'));
-          console.log(_this.offsetTop + ' vs ' + (_this.offsetTop + Number(_this.getAttribute('data-animateoffset'))));
           if(_this.offsetTop + (_this.getAttribute('data-animateoffset') ? Number(_this.getAttribute('data-animateoffset')) : 0) < windowScrollPos + viewportHeight){
             this.allElements[i][1] = true;
             var _timout = setTimeout(this.activateElement.bind(_this), _this.getAttribute('data-animatedelay') ? _this.getAttribute('data-animatedelay') : 0);

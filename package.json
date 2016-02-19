@@ -1,7 +1,7 @@
 {
   "name": "animatewheninview",
   "description": "Animate in or make callbacks when elements scrolls into the viewport",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Ivar Borthen",
   "main": "dist/animatewheninview.min.js",
   "keywords": [
