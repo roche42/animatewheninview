@@ -4,22 +4,22 @@ Animate in or make callbacks when elements scrolls into viewport
 
 ### Installation
 
-scrolledintoview.js is available as an [npm package](https://www.npmjs.com/package/scrolledintoview).
+animatewheninview.js is available as an [npm package](https://www.npmjs.com/package/animatewheninview).
 
 ```
-npm install scrolledintoview --save
+npm install animatewheninview --save
 ```
 
-Add **scrolledintoview.min.js** to the bottom of the `<body>` like this:
+Add **animatewheninview.min.js** to the bottom of the `<body>` like this:
 
 ```
-<script src="scrolledintoview.min.js"></script>
+<script src="animatewheninview.min.js"></script>
 ```
 
 
 ### Note
 
-This is an very early version of scrolledintoview.
+This is an very early version of animatewheninview.
 
 
 ## How to Use
@@ -46,5 +46,5 @@ Coming soon.
 
 ### License
 
-The code is available under the [MIT License](https://github.com/wearecolours/parallaxy/blob/master/LICENSE.md).
+The code is available under the [MIT License](https://github.com/IvarBorthen/animatewheninview/blob/master/LICENSE.md).
 
