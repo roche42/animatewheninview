@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wearecolours/animatewheninview.git"
+    "url": "https://github.com/IvarBorthen/animatewheninview.git"
   },
   "bugs": {
-    "url": "https://github.com/wearecolours/animatewheninview/issues"
+    "url": "https://github.com/IvarBorthen/animatewheninview/issues"
   },
   "license": "MIT",
   "devDependencies": {
