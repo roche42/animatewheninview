@@ -1,0 +1,15 @@
+@import "https://necolas.github.io/normalize.css/3.0.2/normalize.css";
+
+html, body {
+	margin : 0;
+	text-align: center;
+}
+
+.container {
+	margin : 0 auto 400px;
+	display: block;
+	max-width: 800px;
+}
+.container img {
+	width : 100%;
+}

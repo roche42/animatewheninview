@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DEMO - animatewheninview.js</title>
+		<link rel="stylesheet" type="text/css" href="animatewheninview.css" />
+		<link rel="stylesheet" type="text/css" href="demo.css" />
+	</head>
+	<body>
+
+		<h1>Let me know when in view....</h1>
+		<h3>Scroll down>>></h3>
+		<div style="height:500px; background:#eee; margin-bottom:400px;">
+			
+		</div>
+
+		<div data-animatewheninview class="container">
+			<h3>Default with no extra settings</h3>
+			<img src="demo.jpg" >
+		</div>
+
+		<div data-animatewheninview data-animateoffset=400 class="container">
+			<h3>This is activated with an offset of 400px</h3>
+			<img src="demo.jpg" >
+		</div>
+
+		<div data-animatewheninview data-animatedelay=500 class="container" data-animatecallback="myfunction">
+			<h3>This is activated 500ms after is entered viewport</h3>
+			<img src="demo.jpg" >
+		</div>
+
+		<div data-animatewheninview data-animatedelay=500 class="container" data-animatecallback="myfunction">
+			<h3>This is activated 500ms after is entered viewport and makes a callback when activated</h3>
+			<img src="demo.jpg" >
+		</div>
+
+		<h3>Depending on your element and content, adjust and use it as best fit!</h3>
+
+		<script>
+			var myfunction = function(_this){
+				console.log('activated with callback: ', _this);
+			}
+		</script>
+		<script src="animatewheninview.js"></script>
+
+	</body>
+</html>
